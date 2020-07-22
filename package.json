@@ -25,13 +25,23 @@
   },
   "homepage": "https://github.com/b2w-atech/skeleton#readme",
   "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
-    "husky": "^4.2.5"
+    "babel-loader": "^8.1.0",
+    "husky": "^4.2.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
