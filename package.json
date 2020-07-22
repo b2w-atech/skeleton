@@ -1,0 +1,24 @@
+{
+  "name": "@atech/skeleton",
+  "version": "0.1.0",
+  "description": "A-Tech component library based on IBM Carbon",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b2w-atech/skeleton.git"
+  },
+  "keywords": [
+    "ATech",
+    "Analytics Tech",
+    "Skeleton"
+  ],
+  "author": "@b2w-atech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b2w-atech/skeleton/issues"
+  },
+  "homepage": "https://github.com/b2w-atech/skeleton#readme"
+}
