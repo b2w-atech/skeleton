@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/b2w-atech/skeleton/issues"
   },
-  "homepage": "https://github.com/b2w-atech/skeleton#readme"
+  "homepage": "https://github.com/b2w-atech/skeleton#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5"
+  }
 }
