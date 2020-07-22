@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/b2w-atech/skeleton.git"
@@ -20,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/b2w-atech/skeleton/issues"
   },
-  "homepage": "https://github.com/b2w-atech/skeleton#readme"
+  "homepage": "https://github.com/b2w-atech/skeleton#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
